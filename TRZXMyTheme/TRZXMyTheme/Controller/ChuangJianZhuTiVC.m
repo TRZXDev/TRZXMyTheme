@@ -197,7 +197,7 @@
     if (indexPath.section == 0) {
         TZROne1TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TZROne1TableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"TZROne1TableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"TZROne1TableViewCell" owner:self options:nil] lastObject];
         }
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -223,7 +223,7 @@
     }else if (indexPath.section == 1){
         TZRTwoTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"TZRTwoTableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"TZRTwoTableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"TZRTwoTableViewCell" owner:self options:nil] lastObject];
         }
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -237,7 +237,7 @@
     }else if (indexPath.section == 2) {
         IntroductionTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"IntroductionTableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"IntroductionTableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"IntroductionTableViewCell" owner:self options:nil] lastObject];
         }
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -285,7 +285,7 @@
     }else if (indexPath.section == 3) {
         ZhuTiMoneyTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZhuTiMoneyTableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ZhuTiMoneyTableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ZhuTiMoneyTableViewCell" owner:self options:nil] lastObject];
         }
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
@@ -301,7 +301,7 @@
     }else{
         ZhuTiBotomTableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"ZhuTiBotomTableViewCell"];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ZhuTiBotomTableViewCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ZhuTiBotomTableViewCell" owner:self options:nil] lastObject];
         }
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         cell.selectionStyle = UITableViewCellSelectionStyleNone;

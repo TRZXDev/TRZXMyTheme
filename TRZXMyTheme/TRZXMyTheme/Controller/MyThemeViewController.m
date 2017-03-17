@@ -203,7 +203,7 @@
         static NSString *CellID = @"CellID";
         ThemeOneCell *cell = [tableView dequeueReusableCellWithIdentifier:CellID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ThemeOneCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ThemeOneCell" owner:self options:nil] lastObject];
         }
         cell.delegate = self;
         if ([_mode.data.defaultPic isEqualToString:@"1"]) {//展位图
@@ -233,7 +233,7 @@
         static NSString *CellID = @"CellID";
         ThemeTwoCell *cell = [tableView dequeueReusableCellWithIdentifier:CellID];
         if (!cell) {
-            cell = [[[NSBundle mainBundle] loadNibNamed:@"ThemeTwoCell" owner:self options:nil] lastObject];
+            cell = [[[NSBundle bundleForClass:[self class]] loadNibNamed:@"ThemeTwoCell" owner:self options:nil] lastObject];
         }
         cell.selectionStyle = UITableViewCellSelectionStyleNone;
         cell.PriceLable.layer.cornerRadius = 10;

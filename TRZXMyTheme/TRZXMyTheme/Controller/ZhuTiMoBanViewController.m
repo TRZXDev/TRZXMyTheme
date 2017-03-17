@@ -87,7 +87,7 @@
 
 - (void)createUI
 {
-    _TiHuanYuanWenView = [[[NSBundle mainBundle]loadNibNamed:@"TiHuanYuanWenView" owner:self options:nil] objectAtIndex:0];
+    _TiHuanYuanWenView = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"TiHuanYuanWenView" owner:self options:nil] objectAtIndex:0];
     _TiHuanYuanWenView.backgroundColor = backColor;
     _TiHuanYuanWenView.frame = CGRectMake(0, 64, self.view.frame.size.width, 50);
     [_TiHuanYuanWenView.oneBtn addTarget:self action:@selector(mobanClick:) forControlEvents:UIControlEventTouchUpInside];
