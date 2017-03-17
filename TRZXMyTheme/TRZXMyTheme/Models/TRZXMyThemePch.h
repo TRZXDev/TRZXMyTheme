@@ -14,6 +14,8 @@
 #import <SDWebImage/UIImageView+WebCache.h>
 #import <Masonry/Masonry.h>
 #import <DVSwitch/DVSwitch.h>
+#import "UIImage+MyThemeLoad.h"
+
 #define  zjself __weak __typeof(self) sfself = self
 
 #define purseTag 20009

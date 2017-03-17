@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7652F2421E7BD5400002D237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7652F2411E7BD5400002D237 /* ViewController.m */; };
+		7652F2451E7BD8230002D237 /* UIImage+MyThemeLoad.m in Sources */ = {isa = PBXBuildFile; fileRef = 7652F2441E7BD8230002D237 /* UIImage+MyThemeLoad.m */; };
 		B03478DFB5DE95E8447A5AD1 /* Pods_TRZXMyTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */; };
 		B74AA2DC1E7A854D006413F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DB1E7A854D006413F5 /* main.m */; };
 		B74AA2DF1E7A854D006413F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DE1E7A854D006413F5 /* AppDelegate.m */; };
@@ -89,6 +90,8 @@
 		690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXMyTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7652F2401E7BD5400002D237 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		7652F2411E7BD5400002D237 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		7652F2431E7BD8230002D237 /* UIImage+MyThemeLoad.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+MyThemeLoad.h"; sourceTree = "<group>"; };
+		7652F2441E7BD8230002D237 /* UIImage+MyThemeLoad.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+MyThemeLoad.m"; sourceTree = "<group>"; };
 		B74AA2D71E7A854D006413F5 /* TRZXMyTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74AA2DB1E7A854D006413F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B74AA2DD1E7A854D006413F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -345,6 +348,8 @@
 				B74AA3D61E7B83F2006413F5 /* Target_TRZXMyTheme.m */,
 				B74AA3D81E7B84B2006413F5 /* CTMediator+TRZXMyTheme.h */,
 				B74AA3D91E7B84B2006413F5 /* CTMediator+TRZXMyTheme.m */,
+				7652F2431E7BD8230002D237 /* UIImage+MyThemeLoad.h */,
+				7652F2441E7BD8230002D237 /* UIImage+MyThemeLoad.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -633,6 +638,7 @@
 				B74AA3B01E7A8903006413F5 /* TZROne1TableViewCell.m in Sources */,
 				B74AA3941E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m in Sources */,
 				B74AA38A1E7A86EC006413F5 /* ThemeFourCell.m in Sources */,
+				7652F2451E7BD8230002D237 /* UIImage+MyThemeLoad.m in Sources */,
 				B74AA3921E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m in Sources */,
 				B74AA2DF1E7A854D006413F5 /* AppDelegate.m in Sources */,
 				B74AA3A71E7A8759006413F5 /* TRZXMyThemePch.m in Sources */,

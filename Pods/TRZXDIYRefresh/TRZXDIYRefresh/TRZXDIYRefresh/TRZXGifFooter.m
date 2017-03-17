@@ -8,6 +8,7 @@
 
 #import "TRZXGifFooter.h"
 
+
 @interface TRZXGifFooter()
 @end
 

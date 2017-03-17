@@ -82,7 +82,7 @@
     [bottomView addSubview:_SwitchScroll];
     
     _createThemeButton = [[UIButton alloc]initWithFrame:CGRectMake(SCREEN_WIDTH-120, 9, 100, 30)];
-    [_createThemeButton setImage:[UIImage imageNamed:@"Themejia"] forState:UIControlStateNormal];
+    [_createThemeButton setImage:[UIImage Theme_loadImage:@"Themejia" class:[self class]] forState:UIControlStateNormal];
     [_createThemeButton setTitle:@"创建主题" forState:UIControlStateNormal];
     _createThemeButton.titleLabel.font = [UIFont systemFontOfSize:15];
     [_createThemeButton setTitleColor:heizideColor forState:UIControlStateNormal];
@@ -90,7 +90,7 @@
     [bottomView addSubview:_createThemeButton];
     
     UIImageView *kaiIV = [[UIImageView alloc] initWithFrame:CGRectMake(0, 0, WIDTH(_SwitchScroll), HEIGTH(_SwitchScroll))];
-    kaiIV.image = [UIImage imageNamed:@"Themekai"];
+    kaiIV.image = [UIImage Theme_loadImage:@"Themekai" class:[self class]];
     kaiIV.userInteractionEnabled = YES;
     kaiIV.tag = 10000;
     UILabel *kaiLable = [[UILabel alloc] initWithFrame:CGRectMake(0, 0, 68, 20)];
@@ -105,7 +105,7 @@
     
     UIImageView *guanIV = [[UIImageView alloc] initWithFrame:CGRectMake(WIDTH(_SwitchScroll), 0, WIDTH(_SwitchScroll), HEIGTH(_SwitchScroll))];
     guanIV.userInteractionEnabled = YES;
-    guanIV.image = [UIImage imageNamed:@"Themeguan"];
+    guanIV.image = [UIImage Theme_loadImage:@"Themeguan" class:[self class]];
     guanIV.tag = 20000;
     UILabel *guanLable = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 68, 20)];
     guanLable.text = @"约见关闭";
@@ -207,9 +207,9 @@
         }
         cell.delegate = self;
         if ([_mode.data.defaultPic isEqualToString:@"1"]) {//展位图
-            [cell.headImage sd_setImageWithURL:[NSURL URLWithString:_mode.data.headImg] placeholderImage:[UIImage imageNamed:@"展位图"]];
+            [cell.headImage sd_setImageWithURL:[NSURL URLWithString:_mode.data.headImg] placeholderImage:[UIImage Theme_loadImage:@"展位图" class:[self class]]];
         }        
-        [cell.iconImage sd_setImageWithURL:[NSURL URLWithString:_mode.data.expertPhoto] placeholderImage:[UIImage imageNamed:@"展位图"]];
+        [cell.iconImage sd_setImageWithURL:[NSURL URLWithString:_mode.data.expertPhoto] placeholderImage:[UIImage Theme_loadImage:@"展位图" class:[self class]]];
         cell.nameLable.text = _mode.data.realName;
 
         cell.nameLable.shadowColor = heizideColor;
