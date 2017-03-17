@@ -62,7 +62,7 @@
 		B74AA3D01E7B7579006413F5 /* Theme展位图.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3CF1E7B7579006413F5 /* Theme展位图.png */; };
 		B74AA3D31E7B75E3006413F5 /* Theme远程1.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3D11E7B75E3006413F5 /* Theme远程1.png */; };
 		B74AA3D41E7B75E3006413F5 /* Themeztyl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3D21E7B75E3006413F5 /* Themeztyl@2x.png */; };
-		B74AA3D71E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3D61E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.m */; };
+		B74AA3D71E7B83F2006413F5 /* Target_TRZXMyTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3D61E7B83F2006413F5 /* Target_TRZXMyTheme.m */; };
 		B74AA3DA1E7B84B2006413F5 /* CTMediator+TRZXMyTheme.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3D91E7B84B2006413F5 /* CTMediator+TRZXMyTheme.m */; };
 /* End PBXBuildFile section */
 
@@ -171,8 +171,8 @@
 		B74AA3CF1E7B7579006413F5 /* Theme展位图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theme展位图.png"; sourceTree = "<group>"; };
 		B74AA3D11E7B75E3006413F5 /* Theme远程1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theme远程1.png"; sourceTree = "<group>"; };
 		B74AA3D21E7B75E3006413F5 /* Themeztyl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Themeztyl@2x.png"; sourceTree = "<group>"; };
-		B74AA3D51E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXPersonalMyTheme.h; sourceTree = "<group>"; };
-		B74AA3D61E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXPersonalMyTheme.m; sourceTree = "<group>"; };
+		B74AA3D51E7B83F2006413F5 /* Target_TRZXMyTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Target_TRZXMyTheme.h; sourceTree = "<group>"; };
+		B74AA3D61E7B83F2006413F5 /* Target_TRZXMyTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Target_TRZXMyTheme.m; sourceTree = "<group>"; };
 		B74AA3D81E7B84B2006413F5 /* CTMediator+TRZXMyTheme.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CTMediator+TRZXMyTheme.h"; sourceTree = "<group>"; };
 		B74AA3D91E7B84B2006413F5 /* CTMediator+TRZXMyTheme.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CTMediator+TRZXMyTheme.m"; sourceTree = "<group>"; };
 		E2AAD18A43B3E720F471F492 /* Pods-TRZXMyTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme.debug.xcconfig"; sourceTree = "<group>"; };
@@ -336,8 +336,8 @@
 				B74AA3B71E7A8970006413F5 /* ThemeViewController.h */,
 				B74AA3B81E7A8970006413F5 /* ThemeViewController.m */,
 				B74AA3B91E7A8970006413F5 /* ThemeViewController.xib */,
-				B74AA3D51E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.h */,
-				B74AA3D61E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.m */,
+				B74AA3D51E7B83F2006413F5 /* Target_TRZXMyTheme.h */,
+				B74AA3D61E7B83F2006413F5 /* Target_TRZXMyTheme.m */,
 				B74AA3D81E7B84B2006413F5 /* CTMediator+TRZXMyTheme.h */,
 				B74AA3D91E7B84B2006413F5 /* CTMediator+TRZXMyTheme.m */,
 			);
@@ -638,7 +638,7 @@
 				B74AA3A01E7A86EC006413F5 /* TiHuanYuanWenView.m in Sources */,
 				B74AA3991E7A86EC006413F5 /* MyThemeViewController.m in Sources */,
 				B74AA3901E7A86EC006413F5 /* ThemeTwoCell.m in Sources */,
-				B74AA3D71E7B83F2006413F5 /* Target_TRZXPersonalMyTheme.m in Sources */,
+				B74AA3D71E7B83F2006413F5 /* Target_TRZXMyTheme.m in Sources */,
 				B74AA3A31E7A86EC006413F5 /* ZhuTiTopView.m in Sources */,
 				B74AA3AB1E7A88AE006413F5 /* IntroductionTableViewCell.m in Sources */,
 			);

@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import <UIKit/UIKit.h>
 
-@interface Target_TRZXPersonalMyTheme : NSObject
+@interface Target_TRZXMyTheme : NSObject
 
 //我的主题
-- (UIViewController *)Action_PersonalMyTheme_MyThemeViewController:(NSDictionary *)parm;
+- (UIViewController *)Action_MyTheme_MyThemeViewController:(NSDictionary *)parm;
 
 
 @end

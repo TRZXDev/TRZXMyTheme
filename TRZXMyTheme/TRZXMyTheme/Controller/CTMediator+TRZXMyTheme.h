@@ -11,6 +11,6 @@
 
 @interface CTMediator (TRZXMyTheme)
 
-- (UIViewController *)PersonalMyTheme_MyThemeViewController;
+- (UIViewController *)MyTheme_MyThemeViewController;
 
 @end
