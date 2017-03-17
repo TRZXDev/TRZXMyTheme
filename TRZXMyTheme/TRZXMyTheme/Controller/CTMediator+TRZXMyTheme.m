@@ -12,7 +12,7 @@
 @implementation CTMediator (TRZXMyTheme)
 
 -(UIViewController *)MyTheme_MyThemeViewController{
-    UIViewController *viewController = [self performTarget:@"MyTheme"
+    UIViewController *viewController = [self performTarget:@"TRZXMyTheme"
                                                     action:@"MyTheme_MyThemeViewController"
                                                     params:nil
                                          shouldCacheTarget:NO

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
     s.name         = "TRZXMyTheme"
-    s.version      = "0.0.4"
+    s.version      = "0.0.5"
     s.ios.deployment_target = '8.0'
     s.summary      = "TRZXPersonalHome"
     s.homepage     = "https://github.com/TRZXDev/TRZXMyTheme"

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7652F2421E7BD5400002D237 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7652F2411E7BD5400002D237 /* ViewController.m */; };
 		B03478DFB5DE95E8447A5AD1 /* Pods_TRZXMyTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */; };
 		B74AA2DC1E7A854D006413F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DB1E7A854D006413F5 /* main.m */; };
 		B74AA2DF1E7A854D006413F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DE1E7A854D006413F5 /* AppDelegate.m */; };
@@ -86,6 +87,8 @@
 /* Begin PBXFileReference section */
 		50D8C46609D182B6F26892C8 /* Pods-TRZXMyTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme.release.xcconfig"; sourceTree = "<group>"; };
 		690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXMyTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7652F2401E7BD5400002D237 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		7652F2411E7BD5400002D237 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B74AA2D71E7A854D006413F5 /* TRZXMyTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74AA2DB1E7A854D006413F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B74AA2DD1E7A854D006413F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -240,6 +243,8 @@
 				B74AA30D1E7A86BE006413F5 /* TRZXMyTheme */,
 				B74AA2DD1E7A854D006413F5 /* AppDelegate.h */,
 				B74AA2DE1E7A854D006413F5 /* AppDelegate.m */,
+				7652F2401E7BD5400002D237 /* ViewController.h */,
+				7652F2411E7BD5400002D237 /* ViewController.m */,
 				B74AA2E31E7A854D006413F5 /* Main.storyboard */,
 				B74AA2E61E7A854D006413F5 /* Assets.xcassets */,
 				B74AA2E81E7A854D006413F5 /* LaunchScreen.storyboard */,
@@ -614,6 +619,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B74AA38E1E7A86EC006413F5 /* ThemeThreeCell.m in Sources */,
+				7652F2421E7BD5400002D237 /* ViewController.m in Sources */,
 				B74AA39A1E7A86EC006413F5 /* ZhuTiMoBanViewController.m in Sources */,
 				B74AA3BA1E7A8970006413F5 /* ThemeViewController.m in Sources */,
 				B74AA38C1E7A86EC006413F5 /* ThemeOneCell.m in Sources */,
