@@ -7,14 +7,61 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B03478DFB5DE95E8447A5AD1 /* Pods_TRZXMyTheme.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */; };
 		B74AA2DC1E7A854D006413F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DB1E7A854D006413F5 /* main.m */; };
 		B74AA2DF1E7A854D006413F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2DE1E7A854D006413F5 /* AppDelegate.m */; };
-		B74AA2E21E7A854D006413F5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2E11E7A854D006413F5 /* ViewController.m */; };
 		B74AA2E51E7A854D006413F5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74AA2E31E7A854D006413F5 /* Main.storyboard */; };
 		B74AA2E71E7A854D006413F5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B74AA2E61E7A854D006413F5 /* Assets.xcassets */; };
 		B74AA2EA1E7A854D006413F5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B74AA2E81E7A854D006413F5 /* LaunchScreen.storyboard */; };
 		B74AA2F51E7A854D006413F5 /* TRZXMyThemeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2F41E7A854D006413F5 /* TRZXMyThemeTests.m */; };
 		B74AA3001E7A854D006413F5 /* TRZXMyThemeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA2FF1E7A854D006413F5 /* TRZXMyThemeUITests.m */; };
+		B74AA38A1E7A86EC006413F5 /* ThemeFourCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA35C1E7A86EC006413F5 /* ThemeFourCell.m */; };
+		B74AA38B1E7A86EC006413F5 /* ThemeFourCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA35D1E7A86EC006413F5 /* ThemeFourCell.xib */; };
+		B74AA38C1E7A86EC006413F5 /* ThemeOneCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA35F1E7A86EC006413F5 /* ThemeOneCell.m */; };
+		B74AA38D1E7A86EC006413F5 /* ThemeOneCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3601E7A86EC006413F5 /* ThemeOneCell.xib */; };
+		B74AA38E1E7A86EC006413F5 /* ThemeThreeCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3621E7A86EC006413F5 /* ThemeThreeCell.m */; };
+		B74AA38F1E7A86EC006413F5 /* ThemeThreeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3631E7A86EC006413F5 /* ThemeThreeCell.xib */; };
+		B74AA3901E7A86EC006413F5 /* ThemeTwoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3651E7A86EC006413F5 /* ThemeTwoCell.m */; };
+		B74AA3911E7A86EC006413F5 /* ThemeTwoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3661E7A86EC006413F5 /* ThemeTwoCell.xib */; };
+		B74AA3921E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3681E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m */; };
+		B74AA3931E7A86EC006413F5 /* ZhuTiBotomTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3691E7A86EC006413F5 /* ZhuTiBotomTableViewCell.xib */; };
+		B74AA3941E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA36B1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m */; };
+		B74AA3951E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA36C1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.xib */; };
+		B74AA3961E7A86EC006413F5 /* ZhuTiNoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA36E1E7A86EC006413F5 /* ZhuTiNoCell.m */; };
+		B74AA3971E7A86EC006413F5 /* ZhuTiNoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA36F1E7A86EC006413F5 /* ZhuTiNoCell.xib */; };
+		B74AA3981E7A86EC006413F5 /* ChuangJianZhuTiVC.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3721E7A86EC006413F5 /* ChuangJianZhuTiVC.m */; };
+		B74AA3991E7A86EC006413F5 /* MyThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3741E7A86EC006413F5 /* MyThemeViewController.m */; };
+		B74AA39A1E7A86EC006413F5 /* ZhuTiMoBanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3761E7A86EC006413F5 /* ZhuTiMoBanViewController.m */; };
+		B74AA39B1E7A86EC006413F5 /* ZhutideModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3791E7A86EC006413F5 /* ZhutideModel.m */; };
+		B74AA39C1E7A86EC006413F5 /* HBVLinkedTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA37C1E7A86EC006413F5 /* HBVLinkedTextView.m */; };
+		B74AA39D1E7A86EC006413F5 /* MyThemeEditAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA37E1E7A86EC006413F5 /* MyThemeEditAlertView.m */; };
+		B74AA39E1E7A86EC006413F5 /* ReadThemeView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3801E7A86EC006413F5 /* ReadThemeView.m */; };
+		B74AA39F1E7A86EC006413F5 /* ReadThemeView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3811E7A86EC006413F5 /* ReadThemeView.xib */; };
+		B74AA3A01E7A86EC006413F5 /* TiHuanYuanWenView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3831E7A86EC006413F5 /* TiHuanYuanWenView.m */; };
+		B74AA3A11E7A86EC006413F5 /* TiHuanYuanWenView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3841E7A86EC006413F5 /* TiHuanYuanWenView.xib */; };
+		B74AA3A21E7A86EC006413F5 /* UIColor+HBVHarmonies.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3861E7A86EC006413F5 /* UIColor+HBVHarmonies.m */; };
+		B74AA3A31E7A86EC006413F5 /* ZhuTiTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3881E7A86EC006413F5 /* ZhuTiTopView.m */; };
+		B74AA3A41E7A86EC006413F5 /* ZhuTiTopView.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3891E7A86EC006413F5 /* ZhuTiTopView.xib */; };
+		B74AA3A71E7A8759006413F5 /* TRZXMyThemePch.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3A61E7A8759006413F5 /* TRZXMyThemePch.m */; };
+		B74AA3AB1E7A88AE006413F5 /* IntroductionTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3A91E7A88AE006413F5 /* IntroductionTableViewCell.m */; };
+		B74AA3AC1E7A88AE006413F5 /* IntroductionTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3AA1E7A88AE006413F5 /* IntroductionTableViewCell.xib */; };
+		B74AA3B01E7A8903006413F5 /* TZROne1TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3AE1E7A8903006413F5 /* TZROne1TableViewCell.m */; };
+		B74AA3B11E7A8903006413F5 /* TZROne1TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3AF1E7A8903006413F5 /* TZROne1TableViewCell.xib */; };
+		B74AA3B51E7A8927006413F5 /* TZRTwoTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3B31E7A8927006413F5 /* TZRTwoTableViewCell.m */; };
+		B74AA3B61E7A8927006413F5 /* TZRTwoTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3B41E7A8927006413F5 /* TZRTwoTableViewCell.xib */; };
+		B74AA3BA1E7A8970006413F5 /* ThemeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3B81E7A8970006413F5 /* ThemeViewController.m */; };
+		B74AA3BB1E7A8970006413F5 /* ThemeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3B91E7A8970006413F5 /* ThemeViewController.xib */; };
+		B74AA3BE1E7A9041006413F5 /* MyThemeModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3BD1E7A9041006413F5 /* MyThemeModel.m */; };
+		B74AA3C11E7A91C2006413F5 /* OneToOneDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = B74AA3C01E7A91C2006413F5 /* OneToOneDetailModel.m */; };
+		B74AA3C41E7B73AE006413F5 /* Themejia@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3C31E7B73AE006413F5 /* Themejia@2x.png */; };
+		B74AA3C71E7B741C006413F5 /* Themeguan.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3C51E7B741C006413F5 /* Themeguan.png */; };
+		B74AA3C81E7B741C006413F5 /* Themekai.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3C61E7B741C006413F5 /* Themekai.png */; };
+		B74AA3CB1E7B7487006413F5 /* Themebeizi.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3C91E7B7487006413F5 /* Themebeizi.png */; };
+		B74AA3CC1E7B7487006413F5 /* Themebiao.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3CA1E7B7487006413F5 /* Themebiao.png */; };
+		B74AA3CE1E7B7537006413F5 /* Theme延展@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3CD1E7B7537006413F5 /* Theme延展@2x.png */; };
+		B74AA3D01E7B7579006413F5 /* Theme展位图.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3CF1E7B7579006413F5 /* Theme展位图.png */; };
+		B74AA3D31E7B75E3006413F5 /* Theme远程1.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3D11E7B75E3006413F5 /* Theme远程1.png */; };
+		B74AA3D41E7B75E3006413F5 /* Themeztyl@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B74AA3D21E7B75E3006413F5 /* Themeztyl@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +82,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		50D8C46609D182B6F26892C8 /* Pods-TRZXMyTheme.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyTheme.release.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme.release.xcconfig"; sourceTree = "<group>"; };
+		690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRZXMyTheme.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74AA2D71E7A854D006413F5 /* TRZXMyTheme.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TRZXMyTheme.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74AA2DB1E7A854D006413F5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B74AA2DD1E7A854D006413F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B74AA2DE1E7A854D006413F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B74AA2E01E7A854D006413F5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B74AA2E11E7A854D006413F5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B74AA2E41E7A854D006413F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B74AA2E61E7A854D006413F5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B74AA2E91E7A854D006413F5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +98,78 @@
 		B74AA2FB1E7A854D006413F5 /* TRZXMyThemeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TRZXMyThemeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B74AA2FF1E7A854D006413F5 /* TRZXMyThemeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TRZXMyThemeUITests.m; sourceTree = "<group>"; };
 		B74AA3011E7A854D006413F5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B74AA35B1E7A86EC006413F5 /* ThemeFourCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeFourCell.h; sourceTree = "<group>"; };
+		B74AA35C1E7A86EC006413F5 /* ThemeFourCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeFourCell.m; sourceTree = "<group>"; };
+		B74AA35D1E7A86EC006413F5 /* ThemeFourCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeFourCell.xib; sourceTree = "<group>"; };
+		B74AA35E1E7A86EC006413F5 /* ThemeOneCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeOneCell.h; sourceTree = "<group>"; };
+		B74AA35F1E7A86EC006413F5 /* ThemeOneCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeOneCell.m; sourceTree = "<group>"; };
+		B74AA3601E7A86EC006413F5 /* ThemeOneCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeOneCell.xib; sourceTree = "<group>"; };
+		B74AA3611E7A86EC006413F5 /* ThemeThreeCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeThreeCell.h; sourceTree = "<group>"; };
+		B74AA3621E7A86EC006413F5 /* ThemeThreeCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeThreeCell.m; sourceTree = "<group>"; };
+		B74AA3631E7A86EC006413F5 /* ThemeThreeCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeThreeCell.xib; sourceTree = "<group>"; };
+		B74AA3641E7A86EC006413F5 /* ThemeTwoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeTwoCell.h; sourceTree = "<group>"; };
+		B74AA3651E7A86EC006413F5 /* ThemeTwoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeTwoCell.m; sourceTree = "<group>"; };
+		B74AA3661E7A86EC006413F5 /* ThemeTwoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeTwoCell.xib; sourceTree = "<group>"; };
+		B74AA3671E7A86EC006413F5 /* ZhuTiBotomTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuTiBotomTableViewCell.h; sourceTree = "<group>"; };
+		B74AA3681E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuTiBotomTableViewCell.m; sourceTree = "<group>"; };
+		B74AA3691E7A86EC006413F5 /* ZhuTiBotomTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuTiBotomTableViewCell.xib; sourceTree = "<group>"; };
+		B74AA36A1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuTiMoneyTableViewCell.h; sourceTree = "<group>"; };
+		B74AA36B1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuTiMoneyTableViewCell.m; sourceTree = "<group>"; };
+		B74AA36C1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuTiMoneyTableViewCell.xib; sourceTree = "<group>"; };
+		B74AA36D1E7A86EC006413F5 /* ZhuTiNoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuTiNoCell.h; sourceTree = "<group>"; };
+		B74AA36E1E7A86EC006413F5 /* ZhuTiNoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuTiNoCell.m; sourceTree = "<group>"; };
+		B74AA36F1E7A86EC006413F5 /* ZhuTiNoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuTiNoCell.xib; sourceTree = "<group>"; };
+		B74AA3711E7A86EC006413F5 /* ChuangJianZhuTiVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChuangJianZhuTiVC.h; sourceTree = "<group>"; };
+		B74AA3721E7A86EC006413F5 /* ChuangJianZhuTiVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChuangJianZhuTiVC.m; sourceTree = "<group>"; };
+		B74AA3731E7A86EC006413F5 /* MyThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyThemeViewController.h; sourceTree = "<group>"; };
+		B74AA3741E7A86EC006413F5 /* MyThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyThemeViewController.m; sourceTree = "<group>"; };
+		B74AA3751E7A86EC006413F5 /* ZhuTiMoBanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuTiMoBanViewController.h; sourceTree = "<group>"; };
+		B74AA3761E7A86EC006413F5 /* ZhuTiMoBanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuTiMoBanViewController.m; sourceTree = "<group>"; };
+		B74AA3781E7A86EC006413F5 /* ZhutideModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhutideModel.h; sourceTree = "<group>"; };
+		B74AA3791E7A86EC006413F5 /* ZhutideModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhutideModel.m; sourceTree = "<group>"; };
+		B74AA37B1E7A86EC006413F5 /* HBVLinkedTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HBVLinkedTextView.h; sourceTree = "<group>"; };
+		B74AA37C1E7A86EC006413F5 /* HBVLinkedTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HBVLinkedTextView.m; sourceTree = "<group>"; };
+		B74AA37D1E7A86EC006413F5 /* MyThemeEditAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyThemeEditAlertView.h; sourceTree = "<group>"; };
+		B74AA37E1E7A86EC006413F5 /* MyThemeEditAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyThemeEditAlertView.m; sourceTree = "<group>"; };
+		B74AA37F1E7A86EC006413F5 /* ReadThemeView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadThemeView.h; sourceTree = "<group>"; };
+		B74AA3801E7A86EC006413F5 /* ReadThemeView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadThemeView.m; sourceTree = "<group>"; };
+		B74AA3811E7A86EC006413F5 /* ReadThemeView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReadThemeView.xib; sourceTree = "<group>"; };
+		B74AA3821E7A86EC006413F5 /* TiHuanYuanWenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TiHuanYuanWenView.h; sourceTree = "<group>"; };
+		B74AA3831E7A86EC006413F5 /* TiHuanYuanWenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TiHuanYuanWenView.m; sourceTree = "<group>"; };
+		B74AA3841E7A86EC006413F5 /* TiHuanYuanWenView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TiHuanYuanWenView.xib; sourceTree = "<group>"; };
+		B74AA3851E7A86EC006413F5 /* UIColor+HBVHarmonies.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+HBVHarmonies.h"; sourceTree = "<group>"; };
+		B74AA3861E7A86EC006413F5 /* UIColor+HBVHarmonies.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+HBVHarmonies.m"; sourceTree = "<group>"; };
+		B74AA3871E7A86EC006413F5 /* ZhuTiTopView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZhuTiTopView.h; sourceTree = "<group>"; };
+		B74AA3881E7A86EC006413F5 /* ZhuTiTopView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZhuTiTopView.m; sourceTree = "<group>"; };
+		B74AA3891E7A86EC006413F5 /* ZhuTiTopView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZhuTiTopView.xib; sourceTree = "<group>"; };
+		B74AA3A51E7A8759006413F5 /* TRZXMyThemePch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TRZXMyThemePch.h; sourceTree = "<group>"; };
+		B74AA3A61E7A8759006413F5 /* TRZXMyThemePch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TRZXMyThemePch.m; sourceTree = "<group>"; };
+		B74AA3A81E7A88AE006413F5 /* IntroductionTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IntroductionTableViewCell.h; sourceTree = "<group>"; };
+		B74AA3A91E7A88AE006413F5 /* IntroductionTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IntroductionTableViewCell.m; sourceTree = "<group>"; };
+		B74AA3AA1E7A88AE006413F5 /* IntroductionTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = IntroductionTableViewCell.xib; sourceTree = "<group>"; };
+		B74AA3AD1E7A8903006413F5 /* TZROne1TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZROne1TableViewCell.h; sourceTree = "<group>"; };
+		B74AA3AE1E7A8903006413F5 /* TZROne1TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZROne1TableViewCell.m; sourceTree = "<group>"; };
+		B74AA3AF1E7A8903006413F5 /* TZROne1TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZROne1TableViewCell.xib; sourceTree = "<group>"; };
+		B74AA3B21E7A8927006413F5 /* TZRTwoTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TZRTwoTableViewCell.h; sourceTree = "<group>"; };
+		B74AA3B31E7A8927006413F5 /* TZRTwoTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TZRTwoTableViewCell.m; sourceTree = "<group>"; };
+		B74AA3B41E7A8927006413F5 /* TZRTwoTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TZRTwoTableViewCell.xib; sourceTree = "<group>"; };
+		B74AA3B71E7A8970006413F5 /* ThemeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThemeViewController.h; sourceTree = "<group>"; };
+		B74AA3B81E7A8970006413F5 /* ThemeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThemeViewController.m; sourceTree = "<group>"; };
+		B74AA3B91E7A8970006413F5 /* ThemeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThemeViewController.xib; sourceTree = "<group>"; };
+		B74AA3BC1E7A9041006413F5 /* MyThemeModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyThemeModel.h; sourceTree = "<group>"; };
+		B74AA3BD1E7A9041006413F5 /* MyThemeModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyThemeModel.m; sourceTree = "<group>"; };
+		B74AA3BF1E7A91C2006413F5 /* OneToOneDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneToOneDetailModel.h; sourceTree = "<group>"; };
+		B74AA3C01E7A91C2006413F5 /* OneToOneDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneToOneDetailModel.m; sourceTree = "<group>"; };
+		B74AA3C31E7B73AE006413F5 /* Themejia@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Themejia@2x.png"; sourceTree = "<group>"; };
+		B74AA3C51E7B741C006413F5 /* Themeguan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Themeguan.png; sourceTree = "<group>"; };
+		B74AA3C61E7B741C006413F5 /* Themekai.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Themekai.png; sourceTree = "<group>"; };
+		B74AA3C91E7B7487006413F5 /* Themebeizi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Themebeizi.png; sourceTree = "<group>"; };
+		B74AA3CA1E7B7487006413F5 /* Themebiao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Themebiao.png; sourceTree = "<group>"; };
+		B74AA3CD1E7B7537006413F5 /* Theme延展@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theme延展@2x.png"; sourceTree = "<group>"; };
+		B74AA3CF1E7B7579006413F5 /* Theme展位图.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theme展位图.png"; sourceTree = "<group>"; };
+		B74AA3D11E7B75E3006413F5 /* Theme远程1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Theme远程1.png"; sourceTree = "<group>"; };
+		B74AA3D21E7B75E3006413F5 /* Themeztyl@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Themeztyl@2x.png"; sourceTree = "<group>"; };
+		E2AAD18A43B3E720F471F492 /* Pods-TRZXMyTheme.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRZXMyTheme.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +177,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03478DFB5DE95E8447A5AD1 /* Pods_TRZXMyTheme.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +198,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A5B1DBF6C02E9ACDDA585C3B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				690D5F4E0A3B7E4E330A3EA0 /* Pods_TRZXMyTheme.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B74AA2CE1E7A854D006413F5 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +213,8 @@
 				B74AA2F31E7A854D006413F5 /* TRZXMyThemeTests */,
 				B74AA2FE1E7A854D006413F5 /* TRZXMyThemeUITests */,
 				B74AA2D81E7A854D006413F5 /* Products */,
+				C6D8D71870928062E6CE3D12 /* Pods */,
+				A5B1DBF6C02E9ACDDA585C3B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,10 +231,9 @@
 		B74AA2D91E7A854D006413F5 /* TRZXMyTheme */ = {
 			isa = PBXGroup;
 			children = (
+				B74AA30D1E7A86BE006413F5 /* TRZXMyTheme */,
 				B74AA2DD1E7A854D006413F5 /* AppDelegate.h */,
 				B74AA2DE1E7A854D006413F5 /* AppDelegate.m */,
-				B74AA2E01E7A854D006413F5 /* ViewController.h */,
-				B74AA2E11E7A854D006413F5 /* ViewController.m */,
 				B74AA2E31E7A854D006413F5 /* Main.storyboard */,
 				B74AA2E61E7A854D006413F5 /* Assets.xcassets */,
 				B74AA2E81E7A854D006413F5 /* LaunchScreen.storyboard */,
@@ -140,6 +269,133 @@
 			path = TRZXMyThemeUITests;
 			sourceTree = "<group>";
 		};
+		B74AA30D1E7A86BE006413F5 /* TRZXMyTheme */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA3C21E7B7395006413F5 /* Resources */,
+				B74AA35A1E7A86EC006413F5 /* Cells */,
+				B74AA3701E7A86EC006413F5 /* Controller */,
+				B74AA3771E7A86EC006413F5 /* Models */,
+				B74AA37A1E7A86EC006413F5 /* View */,
+			);
+			path = TRZXMyTheme;
+			sourceTree = "<group>";
+		};
+		B74AA35A1E7A86EC006413F5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA3B21E7A8927006413F5 /* TZRTwoTableViewCell.h */,
+				B74AA3B31E7A8927006413F5 /* TZRTwoTableViewCell.m */,
+				B74AA3B41E7A8927006413F5 /* TZRTwoTableViewCell.xib */,
+				B74AA3AD1E7A8903006413F5 /* TZROne1TableViewCell.h */,
+				B74AA3AE1E7A8903006413F5 /* TZROne1TableViewCell.m */,
+				B74AA3AF1E7A8903006413F5 /* TZROne1TableViewCell.xib */,
+				B74AA3A81E7A88AE006413F5 /* IntroductionTableViewCell.h */,
+				B74AA3A91E7A88AE006413F5 /* IntroductionTableViewCell.m */,
+				B74AA3AA1E7A88AE006413F5 /* IntroductionTableViewCell.xib */,
+				B74AA35B1E7A86EC006413F5 /* ThemeFourCell.h */,
+				B74AA35C1E7A86EC006413F5 /* ThemeFourCell.m */,
+				B74AA35D1E7A86EC006413F5 /* ThemeFourCell.xib */,
+				B74AA35E1E7A86EC006413F5 /* ThemeOneCell.h */,
+				B74AA35F1E7A86EC006413F5 /* ThemeOneCell.m */,
+				B74AA3601E7A86EC006413F5 /* ThemeOneCell.xib */,
+				B74AA3611E7A86EC006413F5 /* ThemeThreeCell.h */,
+				B74AA3621E7A86EC006413F5 /* ThemeThreeCell.m */,
+				B74AA3631E7A86EC006413F5 /* ThemeThreeCell.xib */,
+				B74AA3641E7A86EC006413F5 /* ThemeTwoCell.h */,
+				B74AA3651E7A86EC006413F5 /* ThemeTwoCell.m */,
+				B74AA3661E7A86EC006413F5 /* ThemeTwoCell.xib */,
+				B74AA3671E7A86EC006413F5 /* ZhuTiBotomTableViewCell.h */,
+				B74AA3681E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m */,
+				B74AA3691E7A86EC006413F5 /* ZhuTiBotomTableViewCell.xib */,
+				B74AA36A1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.h */,
+				B74AA36B1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m */,
+				B74AA36C1E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.xib */,
+				B74AA36D1E7A86EC006413F5 /* ZhuTiNoCell.h */,
+				B74AA36E1E7A86EC006413F5 /* ZhuTiNoCell.m */,
+				B74AA36F1E7A86EC006413F5 /* ZhuTiNoCell.xib */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		B74AA3701E7A86EC006413F5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA3711E7A86EC006413F5 /* ChuangJianZhuTiVC.h */,
+				B74AA3721E7A86EC006413F5 /* ChuangJianZhuTiVC.m */,
+				B74AA3731E7A86EC006413F5 /* MyThemeViewController.h */,
+				B74AA3741E7A86EC006413F5 /* MyThemeViewController.m */,
+				B74AA3751E7A86EC006413F5 /* ZhuTiMoBanViewController.h */,
+				B74AA3761E7A86EC006413F5 /* ZhuTiMoBanViewController.m */,
+				B74AA3B71E7A8970006413F5 /* ThemeViewController.h */,
+				B74AA3B81E7A8970006413F5 /* ThemeViewController.m */,
+				B74AA3B91E7A8970006413F5 /* ThemeViewController.xib */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		B74AA3771E7A86EC006413F5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA3BF1E7A91C2006413F5 /* OneToOneDetailModel.h */,
+				B74AA3C01E7A91C2006413F5 /* OneToOneDetailModel.m */,
+				B74AA3BC1E7A9041006413F5 /* MyThemeModel.h */,
+				B74AA3BD1E7A9041006413F5 /* MyThemeModel.m */,
+				B74AA3A51E7A8759006413F5 /* TRZXMyThemePch.h */,
+				B74AA3A61E7A8759006413F5 /* TRZXMyThemePch.m */,
+				B74AA3781E7A86EC006413F5 /* ZhutideModel.h */,
+				B74AA3791E7A86EC006413F5 /* ZhutideModel.m */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B74AA37A1E7A86EC006413F5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA37B1E7A86EC006413F5 /* HBVLinkedTextView.h */,
+				B74AA37C1E7A86EC006413F5 /* HBVLinkedTextView.m */,
+				B74AA37D1E7A86EC006413F5 /* MyThemeEditAlertView.h */,
+				B74AA37E1E7A86EC006413F5 /* MyThemeEditAlertView.m */,
+				B74AA37F1E7A86EC006413F5 /* ReadThemeView.h */,
+				B74AA3801E7A86EC006413F5 /* ReadThemeView.m */,
+				B74AA3811E7A86EC006413F5 /* ReadThemeView.xib */,
+				B74AA3821E7A86EC006413F5 /* TiHuanYuanWenView.h */,
+				B74AA3831E7A86EC006413F5 /* TiHuanYuanWenView.m */,
+				B74AA3841E7A86EC006413F5 /* TiHuanYuanWenView.xib */,
+				B74AA3851E7A86EC006413F5 /* UIColor+HBVHarmonies.h */,
+				B74AA3861E7A86EC006413F5 /* UIColor+HBVHarmonies.m */,
+				B74AA3871E7A86EC006413F5 /* ZhuTiTopView.h */,
+				B74AA3881E7A86EC006413F5 /* ZhuTiTopView.m */,
+				B74AA3891E7A86EC006413F5 /* ZhuTiTopView.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		B74AA3C21E7B7395006413F5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B74AA3C91E7B7487006413F5 /* Themebeizi.png */,
+				B74AA3CA1E7B7487006413F5 /* Themebiao.png */,
+				B74AA3C31E7B73AE006413F5 /* Themejia@2x.png */,
+				B74AA3C51E7B741C006413F5 /* Themeguan.png */,
+				B74AA3C61E7B741C006413F5 /* Themekai.png */,
+				B74AA3CD1E7B7537006413F5 /* Theme延展@2x.png */,
+				B74AA3CF1E7B7579006413F5 /* Theme展位图.png */,
+				B74AA3D11E7B75E3006413F5 /* Theme远程1.png */,
+				B74AA3D21E7B75E3006413F5 /* Themeztyl@2x.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C6D8D71870928062E6CE3D12 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E2AAD18A43B3E720F471F492 /* Pods-TRZXMyTheme.debug.xcconfig */,
+				50D8C46609D182B6F26892C8 /* Pods-TRZXMyTheme.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +403,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B74AA3041E7A854D006413F5 /* Build configuration list for PBXNativeTarget "TRZXMyTheme" */;
 			buildPhases = (
+				191975C5592FAD608F16A0B1 /* [CP] Check Pods Manifest.lock */,
 				B74AA2D31E7A854D006413F5 /* Sources */,
 				B74AA2D41E7A854D006413F5 /* Frameworks */,
 				B74AA2D51E7A854D006413F5 /* Resources */,
+				66859BBB6F9147D7A5B76136 /* [CP] Embed Pods Frameworks */,
+				6B6099F38BC85964B7DF813E /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -246,7 +505,30 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B74AA3A41E7A86EC006413F5 /* ZhuTiTopView.xib in Resources */,
+				B74AA3D41E7B75E3006413F5 /* Themeztyl@2x.png in Resources */,
+				B74AA3AC1E7A88AE006413F5 /* IntroductionTableViewCell.xib in Resources */,
+				B74AA3CC1E7B7487006413F5 /* Themebiao.png in Resources */,
+				B74AA38F1E7A86EC006413F5 /* ThemeThreeCell.xib in Resources */,
+				B74AA3951E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.xib in Resources */,
+				B74AA3BB1E7A8970006413F5 /* ThemeViewController.xib in Resources */,
+				B74AA3C71E7B741C006413F5 /* Themeguan.png in Resources */,
 				B74AA2EA1E7A854D006413F5 /* LaunchScreen.storyboard in Resources */,
+				B74AA3C81E7B741C006413F5 /* Themekai.png in Resources */,
+				B74AA3CB1E7B7487006413F5 /* Themebeizi.png in Resources */,
+				B74AA3B61E7A8927006413F5 /* TZRTwoTableViewCell.xib in Resources */,
+				B74AA3971E7A86EC006413F5 /* ZhuTiNoCell.xib in Resources */,
+				B74AA38D1E7A86EC006413F5 /* ThemeOneCell.xib in Resources */,
+				B74AA3A11E7A86EC006413F5 /* TiHuanYuanWenView.xib in Resources */,
+				B74AA3CE1E7B7537006413F5 /* Theme延展@2x.png in Resources */,
+				B74AA38B1E7A86EC006413F5 /* ThemeFourCell.xib in Resources */,
+				B74AA3D31E7B75E3006413F5 /* Theme远程1.png in Resources */,
+				B74AA3931E7A86EC006413F5 /* ZhuTiBotomTableViewCell.xib in Resources */,
+				B74AA3B11E7A8903006413F5 /* TZROne1TableViewCell.xib in Resources */,
+				B74AA3D01E7B7579006413F5 /* Theme展位图.png in Resources */,
+				B74AA3911E7A86EC006413F5 /* ThemeTwoCell.xib in Resources */,
+				B74AA39F1E7A86EC006413F5 /* ReadThemeView.xib in Resources */,
+				B74AA3C41E7B73AE006413F5 /* Themejia@2x.png in Resources */,
 				B74AA2E71E7A854D006413F5 /* Assets.xcassets in Resources */,
 				B74AA2E51E7A854D006413F5 /* Main.storyboard in Resources */,
 			);
@@ -268,14 +550,85 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		191975C5592FAD608F16A0B1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		66859BBB6F9147D7A5B76136 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B6099F38BC85964B7DF813E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TRZXMyTheme/Pods-TRZXMyTheme-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B74AA2D31E7A854D006413F5 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B74AA2E21E7A854D006413F5 /* ViewController.m in Sources */,
+				B74AA38E1E7A86EC006413F5 /* ThemeThreeCell.m in Sources */,
+				B74AA39A1E7A86EC006413F5 /* ZhuTiMoBanViewController.m in Sources */,
+				B74AA3BA1E7A8970006413F5 /* ThemeViewController.m in Sources */,
+				B74AA38C1E7A86EC006413F5 /* ThemeOneCell.m in Sources */,
+				B74AA39D1E7A86EC006413F5 /* MyThemeEditAlertView.m in Sources */,
+				B74AA3BE1E7A9041006413F5 /* MyThemeModel.m in Sources */,
+				B74AA39B1E7A86EC006413F5 /* ZhutideModel.m in Sources */,
+				B74AA39C1E7A86EC006413F5 /* HBVLinkedTextView.m in Sources */,
+				B74AA3981E7A86EC006413F5 /* ChuangJianZhuTiVC.m in Sources */,
+				B74AA3A21E7A86EC006413F5 /* UIColor+HBVHarmonies.m in Sources */,
+				B74AA3961E7A86EC006413F5 /* ZhuTiNoCell.m in Sources */,
+				B74AA3B01E7A8903006413F5 /* TZROne1TableViewCell.m in Sources */,
+				B74AA3941E7A86EC006413F5 /* ZhuTiMoneyTableViewCell.m in Sources */,
+				B74AA38A1E7A86EC006413F5 /* ThemeFourCell.m in Sources */,
+				B74AA3921E7A86EC006413F5 /* ZhuTiBotomTableViewCell.m in Sources */,
 				B74AA2DF1E7A854D006413F5 /* AppDelegate.m in Sources */,
+				B74AA3A71E7A8759006413F5 /* TRZXMyThemePch.m in Sources */,
+				B74AA3C11E7A91C2006413F5 /* OneToOneDetailModel.m in Sources */,
+				B74AA3B51E7A8927006413F5 /* TZRTwoTableViewCell.m in Sources */,
+				B74AA39E1E7A86EC006413F5 /* ReadThemeView.m in Sources */,
 				B74AA2DC1E7A854D006413F5 /* main.m in Sources */,
+				B74AA3A01E7A86EC006413F5 /* TiHuanYuanWenView.m in Sources */,
+				B74AA3991E7A86EC006413F5 /* MyThemeViewController.m in Sources */,
+				B74AA3901E7A86EC006413F5 /* ThemeTwoCell.m in Sources */,
+				B74AA3A31E7A86EC006413F5 /* ZhuTiTopView.m in Sources */,
+				B74AA3AB1E7A88AE006413F5 /* IntroductionTableViewCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,9 +775,11 @@
 		};
 		B74AA3051E7A854D006413F5 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E2AAD18A43B3E720F471F492 /* Pods-TRZXMyTheme.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMyTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXMyTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,9 +788,11 @@
 		};
 		B74AA3061E7A854D006413F5 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 50D8C46609D182B6F26892C8 /* Pods-TRZXMyTheme.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = TRZXMyTheme/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.JWZhang.TRZXMyTheme;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -507,6 +864,7 @@
 				B74AA3061E7A854D006413F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B74AA3071E7A854D006413F5 /* Build configuration list for PBXNativeTarget "TRZXMyThemeTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +873,7 @@
 				B74AA3091E7A854D006413F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B74AA30A1E7A854D006413F5 /* Build configuration list for PBXNativeTarget "TRZXMyThemeUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +882,7 @@
 				B74AA30C1E7A854D006413F5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

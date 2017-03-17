@@ -1,0 +1,73 @@
+PODS:
+  - AFNetworking (3.1.0):
+    - AFNetworking/NSURLSession (= 3.1.0)
+    - AFNetworking/Reachability (= 3.1.0)
+    - AFNetworking/Security (= 3.1.0)
+    - AFNetworking/Serialization (= 3.1.0)
+    - AFNetworking/UIKit (= 3.1.0)
+  - AFNetworking/NSURLSession (3.1.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.1.0)
+  - AFNetworking/Security (3.1.0)
+  - AFNetworking/Serialization (3.1.0)
+  - AFNetworking/UIKit (3.1.0):
+    - AFNetworking/NSURLSession
+  - CTMediator (0.0.3)
+  - DVSwitch (1.0.2)
+  - IQKeyboardManager (4.0.8)
+  - Masonry (1.0.2)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.12)
+  - MLLabel (1.10.3)
+  - ReactiveCocoa (2.5):
+    - ReactiveCocoa/UI (= 2.5)
+  - ReactiveCocoa/Core (2.5):
+    - ReactiveCocoa/no-arc
+  - ReactiveCocoa/no-arc (2.5)
+  - ReactiveCocoa/UI (2.5):
+    - ReactiveCocoa/Core
+  - SDAutoLayout (2.1.7)
+  - SDWebImage (4.0.0):
+    - SDWebImage/Core (= 4.0.0)
+  - SDWebImage/Core (4.0.0)
+  - TRZXDIYRefresh (0.0.1):
+    - MJRefresh
+  - TRZXNetwork (0.0.7):
+    - AFNetworking
+    - YYCache
+  - YYCache (1.0.4)
+
+DEPENDENCIES:
+  - CTMediator
+  - DVSwitch
+  - IQKeyboardManager
+  - Masonry
+  - MJExtension
+  - MLLabel
+  - ReactiveCocoa (~> 2.5)
+  - SDAutoLayout
+  - SDWebImage
+  - TRZXDIYRefresh
+  - TRZXNetwork
+
+SPEC CHECKSUMS:
+  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
+  CTMediator: c9a1203561e2232cb9a72822659159a02ae3cf20
+  DVSwitch: cc13ee6ca6244edcb2afa07b6f07978a0b053c1d
+  IQKeyboardManager: 1a8189fa153bf09044355ee0ad36826f6767e7f7
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: b96cdb21c4aa75a7b07654311ab2f315c497e806
+  MLLabel: 3760fb38aeac53b212409b634bc4aa4bf39ab628
+  ReactiveCocoa: e2db045570aa97c695e7aa97c2bcab222ae51f4a
+  SDAutoLayout: e9b36d04b8c0b504762a04d76fbbe5108944297a
+  SDWebImage: 76a6348bdc74eb5a55dd08a091ef298e56b55e41
+  TRZXDIYRefresh: a89e7cf1658ff7d57aad081c596c2a9cf137dcf2
+  TRZXNetwork: d6ce75a420218ed4b6b95f10220442f175947125
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
+
+PODFILE CHECKSUM: f0b11c4aae344f59042d0c6a5da793e8a86d5a5d
+
+COCOAPODS: 1.2.0
