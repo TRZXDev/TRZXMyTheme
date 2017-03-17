@@ -26,6 +26,11 @@
 
 @implementation ThemeViewController
 
+
+-(void)loadView{
+    self.view = [[[NSBundle bundleForClass:[self class]]loadNibNamed:@"ThemeViewController" owner:self options:nil] objectAtIndex:0];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
 //    UILongPressGestureRecognizer *longPressGesture = [[UILongPressGestureRecognizer alloc] initWithTarget:self action:@selector(handleLongPress:)];
