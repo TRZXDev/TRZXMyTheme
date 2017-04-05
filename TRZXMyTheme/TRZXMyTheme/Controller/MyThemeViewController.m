@@ -255,7 +255,7 @@
             cell.dianjiView.layer.borderColor = [[UIColor colorWithRed:218.0/255.0 green:218.0/255.0 blue:218.0/255.0 alpha:1] CGColor];
 
         } else {
-            Ostlist *ostlistMode = [_mode.data.ostList objectAtIndex:indexPath.row-1];
+            thOstlist *ostlistMode = [_mode.data.ostList objectAtIndex:indexPath.row-1];
             cell.PriceLable.text = [NSString stringWithFormat:@" %@",ostlistMode.muchOnce];
             
 //下面是判断是否是远程视频的（取消了）

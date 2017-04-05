@@ -14,13 +14,13 @@
 @implementation themeData
 
 + (NSDictionary *)objectClassInArray{
-    return @{@"ostList" : [Ostlist class]};
+    return @{@"ostList" : [thOstlist class]};
 }
 
 @end
 
 
-@implementation Ostlist
+@implementation thOstlist
 
 @end
 

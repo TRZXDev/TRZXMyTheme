@@ -8,7 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@class themeData,Ostlist;
+@class themeData,thOstlist;
 @interface MyThemeModel : NSObject
 
 @property (nonatomic, assign) NSInteger pageNo;
@@ -69,7 +69,7 @@
 
 @property (nonatomic, copy) NSString *area;
 
-@property (nonatomic, strong) NSArray<Ostlist *> *ostList;
+@property (nonatomic, strong) NSArray<thOstlist *> *ostList;
 
 @property (nonatomic, copy) NSString *city;
 
@@ -87,7 +87,7 @@
 
 @end
 
-@interface Ostlist : NSObject
+@interface thOstlist : NSObject
 
 @property (nonatomic, copy) NSString *auditDate;
 
