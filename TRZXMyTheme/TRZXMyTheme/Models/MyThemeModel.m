@@ -11,7 +11,7 @@
 @implementation MyThemeModel
 
 @end
-@implementation Data
+@implementation themeData
 
 + (NSDictionary *)objectClassInArray{
     return @{@"ostList" : [Ostlist class]};

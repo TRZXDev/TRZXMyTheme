@@ -8,12 +8,12 @@
 
 #import <Foundation/Foundation.h>
 
-@class Data,Ostlist;
+@class themeData,Ostlist;
 @interface MyThemeModel : NSObject
 
 @property (nonatomic, assign) NSInteger pageNo;
 
-@property (nonatomic, strong) Data *data;
+@property (nonatomic, strong) themeData *data;
 
 //@property (assign, nonatomic)int collectFlag;//收藏状态
 
@@ -36,7 +36,7 @@
 
 
 @end
-@interface Data : NSObject
+@interface themeData : NSObject
 
 @property (nonatomic, copy) NSString *picTitle;
 
